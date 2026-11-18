@@ -277,6 +277,8 @@
     store.setItem("penpal-person", person.id);
     store.setItem("penpal-exercise", exercise.id);
     items = exercise.items.map((i) => ({ ...i }));
+    index = 0; // the old exercise's position may be past the end of this one
+    strokes = [];
     refreshHave();
     $("start").close();
     $("btn-session").textContent = `${person.name} \u00b7 ${exercise.name}`;
@@ -309,6 +311,7 @@
   }
 
   function layoutCells() {
+    if (!items[index]) index = 0;
     const item = items[index];
     const w = canvas.clientWidth;
     const h = canvas.clientHeight;

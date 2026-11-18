@@ -1,7 +1,9 @@
-const CACHE = "penpal-capture-bac45b045511";
+const CACHE = "penpal-capture-7a69d04084bc";
 const FILES = ["./", "capture.js", "icon-180.png", "icon-512.png", "index.html", "manifest.webmanifest", "plan.json", "style.css"];
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
+  // Fetched past the browser's HTTP cache, so a new version never stores the old files.
+  const fresh = FILES.map((f) => new Request(f, { cache: "reload" }));
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(fresh)).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", (e) => {
   e.waitUntil(

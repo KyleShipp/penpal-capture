@@ -1,0 +1,1924 @@
+{
+ "x_height_mm": 6.0,
+ "exercises": [
+  {
+   "id": "letter-pairs",
+   "name": "Letter pairs",
+   "about": "Common pairs like \"th\" and \"er\", written together. Words then flow more like your own writing.",
+   "items": [
+    {
+     "label": "th",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "he",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "in",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "er",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "an",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "re",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "on",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "at",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "en",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "nd",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ti",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "es",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "or",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "te",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ed",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "al",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ar",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "st",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "nt",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ng",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "se",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ha",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "as",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ou",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "io",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "le",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ve",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "co",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "de",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "hi",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ri",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ro",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ic",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ne",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ea",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ra",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ce",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "li",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ch",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ll",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "be",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ma",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "si",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "om",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ur",
+     "kind": "ngram",
+     "target": 3
+    }
+   ]
+  },
+  {
+   "id": "letter-triples",
+   "name": "Letter triples",
+   "about": "Common groups of three like \"ing\" and \"ion\".",
+   "items": [
+    {
+     "label": "ing",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ion",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "tio",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ent",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ati",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "her",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ter",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "hat",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "tha",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ere",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ate",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "his",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "con",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "res",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ver",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ear",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ons",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "nce",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "men",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ith",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ted",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ers",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "pro",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "thi",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "wit",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "are",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ess",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ive",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "est",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "one",
+     "kind": "ngram",
+     "target": 3
+    }
+   ]
+  },
+  {
+   "id": "more-lowercase-variety",
+   "name": "More lowercase variety",
+   "about": "Three more of every lowercase letter, so repeated letters look less alike.",
+   "items": [
+    {
+     "label": "a",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "b",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "c",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "d",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "e",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "f",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "g",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "h",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "i",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "j",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "k",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "l",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "m",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "n",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "o",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "p",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "q",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "r",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "s",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "t",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "u",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "v",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "w",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "x",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "y",
+     "kind": "char",
+     "target": 3
+    },
+    {
+     "label": "z",
+     "kind": "char",
+     "target": 3
+    }
+   ]
+  },
+  {
+   "id": "capitals",
+   "name": "Capitals",
+   "about": "Two more of each capital.",
+   "items": [
+    {
+     "label": "A",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "B",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "C",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "D",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "E",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "F",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "G",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "H",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "I",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "J",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "K",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "L",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "M",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "N",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "O",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "P",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "Q",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "R",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "S",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "T",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "U",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "V",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "W",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "X",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "Y",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "Z",
+     "kind": "char",
+     "target": 2
+    }
+   ]
+  },
+  {
+   "id": "digits-and-punctuation",
+   "name": "Digits and punctuation",
+   "about": "For addresses, dates and exclamation marks.",
+   "items": [
+    {
+     "label": "0",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "1",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "2",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "3",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "4",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "5",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "6",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "7",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "8",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "9",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": ".",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": ",",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "!",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "?",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "'",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "\"",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "-",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": ":",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": ";",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "(",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": ")",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "&",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "/",
+     "kind": "char",
+     "target": 2
+    },
+    {
+     "label": "#",
+     "kind": "char",
+     "target": 2
+    }
+   ]
+  },
+  {
+   "id": "common-words",
+   "name": "Common words",
+   "about": "Words that appear in most notes, written whole.",
+   "items": [
+    {
+     "label": "Dear",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "Thank",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "thank",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "you",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "for",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "the",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "and",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "so",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "much",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "to",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "Thanks",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "your",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "very",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "again",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "we",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "We",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "our",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "us",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "my",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "me",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "it",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "is",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "was",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "with",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "love",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "Love",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "have",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "all",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "of",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "that",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "this",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "gift",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "kind",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "thoughtful",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "wonderful",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "beautiful",
+     "kind": "word",
+     "target": 2
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "name": "Everything in the plan",
+   "about": "Every letter, word and letter group, up to its target.",
+   "items": [
+    {
+     "label": "a",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "b",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "c",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "d",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "e",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "f",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "g",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "h",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "i",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "j",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "k",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "l",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "m",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "n",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "o",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "p",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "q",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "r",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "s",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "t",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "u",
+     "kind": "char",
+     "target": 10
+    },
+    {
+     "label": "v",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "w",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "x",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "y",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "z",
+     "kind": "char",
+     "target": 8
+    },
+    {
+     "label": "A",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "B",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "C",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "D",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "E",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "F",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "G",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "H",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "I",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "J",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "K",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "L",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "M",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "N",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "O",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "P",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "Q",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "R",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "S",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "T",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "U",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "V",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "W",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "X",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "Y",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "Z",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "0",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "1",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "2",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "3",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "4",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "5",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "6",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "7",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "8",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "9",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": ".",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": ",",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "!",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "?",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "'",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "\"",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "-",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": ":",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": ";",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "(",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": ")",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "&",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "/",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "#",
+     "kind": "char",
+     "target": 4
+    },
+    {
+     "label": "Dear",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "Thank",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "thank",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "you",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "for",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "the",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "and",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "so",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "much",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "to",
+     "kind": "word",
+     "target": 5
+    },
+    {
+     "label": "Thanks",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "your",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "very",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "again",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "we",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "We",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "our",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "us",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "my",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "me",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "it",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "is",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "was",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "with",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "love",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Love",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "have",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "all",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "of",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "that",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "this",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "gift",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "kind",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "thoughtful",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "wonderful",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "beautiful",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "th",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "he",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "in",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "er",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "an",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "re",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "on",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "at",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "en",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "nd",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ti",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "es",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "or",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "te",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ed",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "al",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ar",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "st",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "nt",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ng",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "se",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ha",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "as",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ou",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "io",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "le",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ve",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "co",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "de",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "hi",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ri",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ro",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ic",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ne",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ea",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ra",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ce",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "li",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ch",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ll",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "be",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ma",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "si",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "om",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ur",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ing",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ion",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "tio",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ent",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ati",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "her",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ter",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "hat",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "tha",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ere",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ate",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "his",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "con",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "res",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ver",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ear",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ons",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "nce",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "men",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ith",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ted",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ers",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "pro",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "thi",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "wit",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "are",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ess",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "ive",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "est",
+     "kind": "ngram",
+     "target": 3
+    },
+    {
+     "label": "one",
+     "kind": "ngram",
+     "target": 3
+    }
+   ]
+  }
+ ]
+}

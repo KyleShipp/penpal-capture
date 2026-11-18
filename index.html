@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="penpal">
+<meta name="theme-color" content="#1d2b5c">
+<title>penpal - capture</title>
+<link rel="stylesheet" href="./style.css">
+<meta name="penpal-offline" content="1">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+</head>
+<body class="capture">
+<header>
+  <div class="prompt"><span id="prompt-text">...</span><span id="prompt-kind" class="muted"></span></div>
+  <div class="progress" id="progress"></div>
+  <select id="item-select" aria-label="Jump to a character or word"></select>
+  <button id="btn-session" type="button" title="Whose handwriting, and what to write">Change</button>
+  <button id="btn-export" type="button" hidden>Export</button>
+  <button id="btn-settings" type="button">Settings</button>
+  <a id="link-review" class="button" href="/review">Review</a>
+</header>
+<main id="pad-wrap"><canvas id="pad"></canvas></main>
+<footer>
+  <button id="btn-undo" type="button">Undo</button>
+  <button id="btn-clear" type="button">Clear</button>
+  <span id="status" class="muted"></span>
+  <span class="spacer"></span>
+  <button id="btn-prev" type="button">Back</button>
+  <button id="btn-skip" type="button">Skip</button>
+  <button id="btn-save" type="button" class="primary">Save &amp; next</button>
+</footer>
+<dialog id="start">
+  <h2>What are you writing?</h2>
+  <label>Whose handwriting <select id="person"></select></label>
+  <div id="add-person" class="inline" hidden>
+    <input id="new-person" type="text" maxlength="40" placeholder="Name, e.g. Kyle" autocomplete="off">
+    <button id="btn-add-person" type="button">Add person</button>
+  </div>
+  <div id="exercises" class="exercises" role="radiogroup" aria-label="Exercise"></div>
+  <p id="offline-note" class="muted" hidden>Works without the computer: everything is kept on this iPad until you
+    export it (the Export button), then import that file in penpal on the computer.</p>
+  <div class="row"><button id="btn-start" type="button" class="primary">Start writing</button></div>
+</dialog>
+<dialog id="export">
+  <h2>Samples on this iPad</h2>
+  <p id="export-summary"></p>
+  <div class="row left">
+    <button id="btn-share" type="button" class="primary">Export file</button>
+    <button id="btn-export-close" type="button">Close</button>
+  </div>
+  <p class="muted">Save the file to Files or AirDrop it to the computer, then in penpal open Handwriting and choose
+    <b>Import from iPad</b>. Importing the same file twice is fine: nothing is added twice.</p>
+  <div class="row left"><button id="btn-forget" type="button">Delete exported pages from this iPad</button></div>
+</dialog>
+<dialog id="settings">
+  <h2>Settings</h2>
+  <p>Hold a credit card (or anything 85.6&nbsp;mm wide) against the screen and drag the slider until the blue box is exactly as wide as the card. This makes the writing guides real size.</p>
+  <div id="calib-box"></div>
+  <input id="calib" type="range" min="2.5" max="9" step="0.01" aria-label="Screen scale">
+  <label>Letter size: height of a lowercase "x", in mm
+    <input id="xh" type="number" min="3" max="15" step="0.5"></label>
+  <label><input id="pen-only" type="checkbox"> Apple Pencil only (ignore fingers and palm)</label>
+  <p class="muted">Write each sample the way you normally would. Small differences between samples are good: penpal mixes them so no two letters look stamped.</p>
+  <div class="row"><button id="btn-settings-done" type="button" class="primary">Done</button></div>
+</dialog>
+<script src="./capture.js"></script>
+</body>
+</html>

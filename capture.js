@@ -13,19 +13,24 @@
   const ctx = canvas.getContext("2d");
   const store = window.localStorage;
 
-  // Writing cells extend this many x-heights above and below the baseline.
-  const ABOVE = 2.0;
-  const BELOW = 1.1;
+  // Writing cells extend this many x-heights above and below the baseline. The solid top line
+  // is at 2 x-heights, so the dashed line (the top of small letters) is exactly halfway up.
+  const TOP = 2.0;
+  const ABOVE = 2.4;
+  const BELOW = 1.3;
   const PER_SCREEN = { char: 8, ngram: 6, word: 4 };
   const INK = "#1d2b5c";
   const PLAN = "plan"; // the exercise that is the whole plan, with lasting targets
+  // A letter size you chose yourself. (Sizes saved with the earlier guides, under
+  // "penpal-x-height", meant something else and are ignored.)
+  const XH_KEY = "penpal-x-height-halfway";
 
   const randomHex = (bytes) =>
     Array.from(crypto.getRandomValues(new Uint8Array(bytes)), (b) => b.toString(16).padStart(2, "0")).join("");
   const session = randomHex(8);
   const settings = {
     pxPerMm: parseFloat(store.getItem("penpal-px-per-mm")) || guessPxPerMm(),
-    xHeightMm: parseFloat(store.getItem("penpal-x-height")) || 0,
+    xHeightMm: parseFloat(store.getItem(XH_KEY)) || 0,
     penOnly: store.getItem("penpal-pen-only") !== "0",
   };
 
@@ -318,7 +323,7 @@
     const w = canvas.clientWidth;
     const h = canvas.clientHeight;
     const u = unit();
-    const cellW = item.kind === "char" ? u * 2.8 : u * (0.95 * item.label.length + 1.6);
+    const cellW = item.kind === "char" ? u * 3.4 : u * (1.1 * item.label.length + 2);
     const cellH = u * (ABOVE + BELOW);
     const gap = u * 0.5;
     const cols = Math.max(1, Math.floor((w - gap) / (cellW + gap)));
@@ -384,8 +389,8 @@
       ctx.fill();
       ctx.stroke();
       // Like school writing paper: solid top line (capitals and tall letters), dashed line
-      // (top of small letters), solid baseline, and open space below it for tails.
-      guide(c, c.baseline - 1.5 * u, "#6f89ad", [], 1.5);
+      // halfway down (top of small letters), solid baseline, and open space below it for tails.
+      guide(c, c.baseline - TOP * u, "#6f89ad", [], 1.5);
       guide(c, c.baseline - u, "#7f97bb", [6, 4], 1.25);
       guide(c, c.baseline, "#6f89ad", [], 1.5);
     }
@@ -744,10 +749,12 @@
   $("btn-settings").addEventListener("click", () => plan && openSettings());
   $("btn-settings-done").addEventListener("click", () => {
     const xh = parseFloat($("xh").value);
-    settings.xHeightMm = xh >= 3 && xh <= 15 ? xh : 0;
+    // Only a size you changed is remembered, so a new default in the plan still reaches this iPad.
+    const chosen = xh >= 3 && xh <= 15 && Math.abs(xh - plan.x_height_mm) > 0.01;
+    settings.xHeightMm = chosen ? xh : 0;
     settings.penOnly = $("pen-only").checked;
     store.setItem("penpal-px-per-mm", String(settings.pxPerMm));
-    store.setItem("penpal-x-height", String(settings.xHeightMm));
+    store.setItem(XH_KEY, String(settings.xHeightMm));
     store.setItem("penpal-pen-only", settings.penOnly ? "1" : "0");
     $("settings").close();
     strokes = [];

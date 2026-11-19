@@ -1,4 +1,4 @@
-const CACHE = "penpal-capture-7a69d04084bc";
+const CACHE = "penpal-capture-8c4ff4d081c3";
 const FILES = ["./", "capture.js", "icon-180.png", "icon-512.png", "index.html", "manifest.webmanifest", "plan.json", "style.css"];
 self.addEventListener("install", (e) => {
   // Fetched past the browser's HTTP cache, so a new version never stores the old files.

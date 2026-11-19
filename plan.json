@@ -852,72 +852,7 @@
      "target": 2
     },
     {
-     "label": "your",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "very",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "again",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "we",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "We",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "our",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "us",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "my",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "me",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "it",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "is",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "was",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "with",
-     "kind": "word",
-     "target": 2
-    },
-    {
-     "label": "love",
+     "label": "Hi",
      "kind": "word",
      "target": 2
     },
@@ -927,7 +862,7 @@
      "target": 2
     },
     {
-     "label": "have",
+     "label": "love",
      "kind": "word",
      "target": 2
     },
@@ -937,22 +872,47 @@
      "target": 2
     },
     {
-     "label": "of",
-     "kind": "word",
-     "target": 2
-    },
-    {
      "label": "that",
      "kind": "word",
      "target": 2
     },
     {
-     "label": "this",
+     "label": "with",
      "kind": "word",
      "target": 2
     },
     {
-     "label": "gift",
+     "label": "are",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "be",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "will",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "see",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "just",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "what",
+     "kind": "word",
+     "target": 2
+    },
+    {
+     "label": "when",
      "kind": "word",
      "target": 2
     },
@@ -962,19 +922,336 @@
      "target": 2
     },
     {
+     "label": "beautiful",
+     "kind": "word",
+     "target": 2
+    },
+    {
      "label": "thoughtful",
      "kind": "word",
      "target": 2
     },
     {
-     "label": "wonderful",
+     "label": "family",
      "kind": "word",
      "target": 2
     },
     {
-     "label": "beautiful",
+     "label": "friend",
      "kind": "word",
      "target": 2
+    },
+    {
+     "label": "everything",
+     "kind": "word",
+     "target": 2
+    }
+   ]
+  },
+  {
+   "id": "words-from-your-notes",
+   "name": "Words from your notes",
+   "about": "The words your kinds of notes use most (thank-yous, birthdays, get well, fundraising...), written whole once each.",
+   "items": [
+    {
+     "label": "you",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "so",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "for",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "to",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "of",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "Thank",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "hope",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "We",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "much",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "It",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "your",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "the",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "and",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "With",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "me",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "this",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "it",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "us",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "wonderful",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "thinking",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "I'm",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "love",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "was",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "You",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "made",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "We're",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "soon",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "holiday",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "Warmly",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "know",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "day",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "you're",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "loss",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "well",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "birthday",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "really",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "have",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "can",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "gift",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "year",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "about",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "very",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "my",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "such",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "means",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "we",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "Your",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "season",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "support",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "grateful",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "sorry",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "again",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "wishes",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "our",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "time",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "do",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "Wishing",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "happy",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "in",
+     "kind": "word",
+     "target": 1
+    },
+    {
+     "label": "by",
+     "kind": "word",
+     "target": 1
     }
    ]
   },
@@ -1414,27 +1691,12 @@
      "target": 5
     },
     {
-     "label": "Thanks",
+     "label": "of",
      "kind": "word",
      "target": 3
     },
     {
-     "label": "your",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "very",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "again",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "we",
+     "label": "hope",
      "kind": "word",
      "target": 3
     },
@@ -1444,17 +1706,17 @@
      "target": 3
     },
     {
-     "label": "our",
+     "label": "It",
      "kind": "word",
      "target": 3
     },
     {
-     "label": "us",
+     "label": "your",
      "kind": "word",
      "target": 3
     },
     {
-     "label": "my",
+     "label": "With",
      "kind": "word",
      "target": 3
     },
@@ -1464,72 +1726,17 @@
      "target": 3
     },
     {
-     "label": "it",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "is",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "was",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "with",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "love",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "Love",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "have",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "all",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "of",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "that",
-     "kind": "word",
-     "target": 3
-    },
-    {
      "label": "this",
      "kind": "word",
      "target": 3
     },
     {
-     "label": "gift",
+     "label": "it",
      "kind": "word",
      "target": 3
     },
     {
-     "label": "kind",
-     "kind": "word",
-     "target": 3
-    },
-    {
-     "label": "thoughtful",
+     "label": "us",
      "kind": "word",
      "target": 3
     },
@@ -1539,7 +1746,302 @@
      "target": 3
     },
     {
+     "label": "thinking",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "I'm",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "love",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "was",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "You",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "made",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "We're",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "soon",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "holiday",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Warmly",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "know",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "day",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "you're",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "loss",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "well",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "birthday",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "really",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "have",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "can",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "gift",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "year",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "about",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "very",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "my",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "such",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "means",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "we",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Your",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "season",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "support",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "grateful",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "sorry",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "again",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "wishes",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "our",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "time",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "do",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Wishing",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "happy",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "in",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "by",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Thanks",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Hi",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "Love",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "all",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "that",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "with",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "are",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "be",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "will",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "see",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "just",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "what",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "when",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "kind",
+     "kind": "word",
+     "target": 3
+    },
+    {
      "label": "beautiful",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "thoughtful",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "family",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "friend",
+     "kind": "word",
+     "target": 3
+    },
+    {
+     "label": "everything",
      "kind": "word",
      "target": 3
     },

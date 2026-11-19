@@ -340,10 +340,10 @@
     }
   }
 
-  function guide(cell, y, color, dash) {
+  function guide(cell, y, color, dash, width = 1) {
     ctx.save();
     ctx.strokeStyle = color;
-    ctx.lineWidth = 1;
+    ctx.lineWidth = width;
     ctx.setLineDash(dash);
     ctx.beginPath();
     ctx.moveTo(cell.x + 4, y);
@@ -383,10 +383,11 @@
       else ctx.rect(c.x, c.y, c.w, c.h);
       ctx.fill();
       ctx.stroke();
-      guide(c, c.baseline - 1.5 * u, "#e3dccb", [2, 4]);
-      guide(c, c.baseline - u, "#b8c6d9", [6, 4]);
-      guide(c, c.baseline, "#6f89ad", []);
-      guide(c, c.baseline + 0.8 * u, "#e3dccb", [2, 4]);
+      // Like school writing paper: solid top line (capitals and tall letters), dashed line
+      // (top of small letters), solid baseline, and open space below it for tails.
+      guide(c, c.baseline - 1.5 * u, "#6f89ad", [], 1.5);
+      guide(c, c.baseline - u, "#7f97bb", [6, 4], 1.25);
+      guide(c, c.baseline, "#6f89ad", [], 1.5);
     }
     inkStyle();
     for (const s of strokes) drawStroke(s.points);

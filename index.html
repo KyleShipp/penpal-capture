@@ -36,9 +36,11 @@
   <h2>What are you writing?</h2>
   <label>Whose handwriting <select id="person"></select></label>
   <div id="add-person" class="inline" hidden>
-    <input id="new-person" type="text" maxlength="40" placeholder="Name, e.g. Kyle" autocomplete="off">
+    <input id="new-person" type="text" maxlength="40" placeholder="Name, e.g. Kyle First" autocomplete="off">
     <button id="btn-add-person" type="button">Add person</button>
   </div>
+  <p id="same-name" class="muted" hidden>Already have handwriting in penpal? Add that person here with exactly the
+    same name as on the computer. When you import, these samples are added to theirs.</p>
   <div id="exercises" class="exercises" role="radiogroup" aria-label="Exercise"></div>
   <p id="offline-note" class="muted" hidden>Works without the computer: everything is kept on this iPad until you
     export it (the Export button), then import that file in penpal on the computer.</p>

@@ -195,6 +195,7 @@
     if (OFFLINE) sel.append(new Option("+ Add a person", ""));
     sel.value = people.some((p) => p.id === selectedId) ? selectedId : people.length ? people[0].id : "";
     $("add-person").hidden = !OFFLINE || sel.value !== "";
+    $("same-name").hidden = $("add-person").hidden;
   }
 
   function fillExercises(selectedId) {
@@ -242,6 +243,7 @@
 
   $("person").addEventListener("change", async (e) => {
     $("add-person").hidden = !OFFLINE || e.target.value !== "";
+    $("same-name").hidden = $("add-person").hidden;
     if (e.target.value) {
       await loadPlan(e.target.value);
       const checked = document.querySelector('input[name="exercise"]:checked');
